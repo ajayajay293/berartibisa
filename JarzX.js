@@ -41,7 +41,7 @@ const welcomeMsg = (name, username, userRefCount, isPremiumUser) => `
   ║ 〩 - 🛠 Tools Menu
   ┗━━━━━━━━━━━━━━━━━━━━⬡
   ╔─═⊱ 〩 Developer ─═⬡
-  ║ 〩 - @JarrGanteng
+  ║ 〩 - @xNeymarJunior
   ┗━━━━━━━━━━━━━━━━━━━━⬡
   ⚡ Tekan tombol di bawah untuk mulai!
 \`\`\`
@@ -587,14 +587,14 @@ bot.onText(/\/start(?:\s+(.+))?/, async (msg, match) => {
           { text: '☇ 𝚄𝙽𝙳𝙰𝙽𝙶 𝚃𝙴𝙼𝙰𝙽', callback_data: 'invite_friend' },
           { text: '☇ 𝚃𝙾𝙾𝙻𝚂 𝙼𝙴𝙽𝚄', callback_data: 'tools_menu' }
         ],
-        [{ text: '☇ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url: 'https://t.me/JarrGanteng' }]
+        [{ text: '☇ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url: 'https://t.me/xNeymarJunior' }]
       ]
     },
     parse_mode: 'Markdown'
   };
 
   // --- Kirim foto + teks ---
-  const photoUrl = 'https://i.ibb.co/KcBtCj7j/1808f000bba1.jpg'; // ganti dengan link foto kamu
+  const photoUrl = 'https://foto-to-url.gt.tc/uploads/img_69aa8f02123621.39107146.jpg'; // ganti dengan link foto kamu
   bot.sendPhoto(chatId, photoUrl, {
     caption: welcomeMsg(name, username, userRefCount, isPremium(chatId)),
     parse_mode: 'Markdown',
