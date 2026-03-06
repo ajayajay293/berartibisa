@@ -4,7 +4,7 @@ module.exports = {
   ADMIN_ID: "6816905895",
   BOT_USERNAME: "CreateWebGGbot", // tanpa @
   REQUIRED_GROUPS: [
-    "@xNoktelStore",
+    "@xStoreNoktel",
     "@StoreRealll"
   ],
   IMGBB_API_KEY: "64f70186d8ebe857ea819e63e0bf295e"
